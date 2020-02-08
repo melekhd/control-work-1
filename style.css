@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lorem {
+    width: 700px;
+    min-height: 250px;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.button1 {
+    width: 55px;
+    height: 35px;
+    background-color: yellow;
+    margin-left: 645px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 55px;
+    height: 35px;
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+
+.div1 {
+    width: 700px;
+    height: 275px;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.area {
+    width: 660px;
+    height: 190px;
+}
+
+.add {
+    width: 55px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.save {
+    width: 55px;
+    height: 35px;
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.editBlock {
+    display: none
+}
+
+.div3 {
+    display: none;
+}
+
+.div4 {
+    height: 225px;
+    width: 300px;
+}
+
+.div5 {
+    height: 225px;
+    width: 360px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 38px auto;
+    visibility: hidden;
+    border: 1px solid black;
+}
+
+.block {
+    width: 49.3px;
+    height: 49.5px;
+    border: 1px solid black;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+#fontSize {
+    margin-bottom: 10px;
+}
+
+.f4,
+.f3,
+h4 {
+    margin-bottom: 10px;
+}
+
+.box1 {
+    min-height: 100px;
+    display: none;
+}
+
+.div6 {
+    margin: 20px auto;
+    background-color: lightgray;
+    width: 750px;
+    min-height: 250px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.box2 {
+    min-height: 200px;
+    display: none;
+}
+
+.div7 {
+    margin: 20px auto;
+    background-color: lightgray;
+    width: 750px;
+    min-height: 265px;
+    padding: 27px;
+    border: 1px solid black;
+}
+
+.f7 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.f7text {
+    width: 578px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    margin-left: 46px;
+}
+
+.f7text1 {
+    width: 578px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    margin-left: 46px;
+}
+
+.f7text2 {
+    width: 578px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    margin-left: 30px;
+}
+
+.f7text3 {
+    width: 578px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    margin-left: 27px;
+}
+
+.f7p {
+    margin-bottom: 15px;
+}
+
+.h2 {
+    margin-bottom: 15px;
+}
+
+.f8 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.f8p {
+    margin-top: 10px;
+}
+
+.f8text {
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.selectf8 {
+    margin-top: 6px;
+    width: 100px;
+    height: 25px;
+}
+
+.f8left {
+    margin-left: -7px;
+    border: 1px solid grey;
+}
+
+.button5 {
+    width: 105px;
+    height: 30px;
+    font-size: 14px;
+    background-color: limegreen;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.list1 p input {
+    height: 25px;
+    width: 450px;
+    padding-left: 10px;
+}
+
+.list1 select {
+    height: 25px;
+    width: 450px;
+    padding-left: 10px;
+}
+
+.list1 span {
+    line-height: 25px;
+}
+
+.list1 {
+    display: none;
+}
+
+.table1 {
+    display: none;
+}
+
+.f9 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.clear {
+    display: none;
+}
+
+.f9p {
+    margin-bottom: 15px;
+}
+
+.f9text {
+    width: 578px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    margin-left: 70px;
+}
+
+.f10p {
+    margin-top: 20px;
+}
+
+.select9 {
+    width: 579px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    margin-left: 32px;
+}
+
+.button6 {
+    width: 105px;
+    height: 30px;
+    font-size: 14px;
+    background-color: limegreen;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 10px 0;
+}
+
+ul {
+    margin-top: 5px;
+    margin-left: 20px;
+}

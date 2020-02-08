@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="clear"></div>
+    <div class="container1">
+        <div class="lorem" id="lorem">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="div2">
+            <input type="button" name="button1" value="edit" class="button1">
+            <input type="button" name="button2" value="style" class="button2">
+        </div>
+        <div class="div1">
+            <div class="editBlock">
+                <form name="f2">
+                    <textarea name="" id="area" cols="30" rows="10" class="area"></textarea>
+                    <input type="button" name="button3" value="add" class="add">
+                    <input type="button" name="button4" value="save" class="save">
+                </form>
+            </div>
+            <div class="div3">
+                <div class="div4">
+                    <h4>Font Size:</h4>
+                    <form name="f3" class="f3">
+                        <input type="radio" value='12px' name='size'> 12px
+                        <input type="radio" value='14px' name='size'> 14px
+                        <input type="radio" value='16px' name='size' checked> 16px
+                        <input type="radio" value='18px' name='size'> 18px
+                        <input type="radio" value='20px' name='size'> 20px
+                    </form>
+                    <h4>Font Family:</h4>
+                    <form name="f4">
+                        <select name="fontSize" id="fontSize">
+                            <option value="cursive">Choose option</option>
+                            <option value="cursive">cursive</option>
+                            <option value="fantasy">fantasy</option>
+                            <option value="monospace">monospace</option>
+                            <option value="sens-serif">sens-serif</option>
+                        </select>
+                    </form>
+                    <h4>Colors:</h4>
+                    <form name="f4" class="f4">
+                        <input type="button" value="Color of Text" name="color" class="color">
+                        <input type="button" value="Background color" name="background" class="background">
+                    </form>
+
+                    <form name="f5">
+                        <input type="checkbox" class="bold"> Bold text
+                        <input type="checkbox" class="cursive"> Cursive text
+                    </form>
+                </div>
+                <div class="div5">
+                    <div class="box">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box2 div7">
+        <div class="choose">
+            <form name="f6">
+                <h2 class="h2">Choose what you want:</h2>
+                <input name="choose" type="radio" class="table"><span> table </span>
+                <input name="choose" type="radio" class="list2"><span> list </span>
+            </form>
+            <div class="table1">
+                <form name="f7" class="f7">
+                    <p class="f7p">Count TR: <input type="text" class="f7text" placeholder="Count TR:"></p>
+                    <p class="f7p">Count TD: <input type="text" class="f7text1" placeholder="Count TD:"></p>
+                    <h2 class="h2">Add style to your table:</h2>
+                    <p class="f7p">Width of TD: <input type="text" class="f7text2" placeholder="Width of TD:"></p>
+                    <p class="f7p">Height of TD: <input type="text" class="f7text3" placeholder="Height of TD:"></p>
+                </form>
+                <form name="f8" class="f8">
+                    <p class="f8p">Width of border:</p>
+                    <input type="text" class="f8text f8left" placeholder="Width:">
+                    <p class="f8p">Type of border:</p>
+                    <select name="selectf8" class="selectf8">
+                        <option value="solid">solid</option>
+                        <option value="dotted">dotted</option>
+                        <option value="dashed">dashed</option>
+                    </select>
+                    <p class="f8p">Color of border:</p>
+                    <select name="selectf8" class="selectf8">
+                        <option value="black">black</option>
+                        <option value="red">red</option>
+                        <option value="blue">blue</option>
+                        <option value="green">green</option>
+                    </select>
+                </form>
+                <input class="button5" type="button" value="Create table">
+            </div>
+        </div>
+        <div class="list1">
+            <form name="f9" class="f9">
+                <p class="f9p">Count li:<input type="text" class="f9text" placeholder="Count Li:"></p>
+                <p class="f10p">Type of marks:<select name="select9" class="select9">
+                        <option value="circle">circle</option>
+                        <option value="disc">disc</option>
+                        <option value="square">square</option>
+                    </select></p>
+                <input class="button6" value="Create list" type="button">
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
